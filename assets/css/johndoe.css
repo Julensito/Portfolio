@@ -11362,9 +11362,11 @@ pre {
   background: #f8f9fa;
 }
 
-pre code,
-pre .code {
-  color: #6c757d;
+.header {
+  background-image: url('./assets/imgs/tu-imagen.jpg'); /* Cambia la ruta según tu carpeta */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .dropdown-menu.form {
@@ -11383,6 +11385,16 @@ pre .code {
       -ms-flex-pack: justify;
           justify-content: space-between;
   max-width: 180px;
+}
+
+.icon-imge {
+  width: 1400px;
+  height: auto;
+}
+
+.icon-imgd {
+  width: 20px;
+  height: auto;
 }
 
 .icon-img {
