@@ -11602,6 +11602,14 @@ pre {
   color: #212529;
 }
 
+.header {
+  background-image: url('assets/imgs/Portadaweb.png'); /* Ajusta la ruta según la ubicación de tu imagen */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent; /* Por si hay un color gris definido */
+}
+
 .header-mini {
   min-height: 24rem;
   height: 24rem;
